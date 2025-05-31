@@ -1,0 +1,122 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    font-size: 33px;
+    margin-left: 30px;
+    margin-top: 15px;
+    color: #4db7d4;
+    font-weight:900;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.navbar-menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.navbar-menu li {
+    margin: 0 15px;
+}
+
+.navbar-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-menu a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
+.section {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* Upload Area Styles */
+.upload-area {
+    border: 2px dashed #007BFF;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 0;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.upload-area:hover {
+    background-color: #f0f8ff;
+}
+
+.upload-area p {
+    margin: 0;
+}
+
+.upload-link {
+    color: #007BFF;
+    text-decoration:underline;
+    cursor: pointer;
+}
+.list-items{
+    list-style: none;
+}
+.list-items li{
+    padding: 10px;
+}
+#convertButton{
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: rgb(19, 77, 82);
+}
+/* Result Styles */
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

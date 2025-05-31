@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image to Text Converter</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* styles.css */
+
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+        }
+
+        /* Navbar Styles */
+        .navbar {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .navbar-brand {
+            font-size: 33px;
+            margin-left: 30px;
+            margin-top: 15px;
+            color: #4db7d4;
+            font-weight: 900;
+            font-family: cursive;
+            cursor: pointer;
+        }
+
+        .navbar-menu {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 20px;
+            font-size: 25px;
+        }
+
+        .navbar-menu li {
+            margin: 0 15px;
+        }
+
+        .navbar-menu a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .navbar-menu a:hover {
+            text-decoration: underline;
+        }
+
+        /* Section Styles */
+        .section {
+            padding: 20px;
+            border: 1px solid #ccc;
+            margin: 20px 0;
+        }
+
+        h1,
+        h2 {
+            color: #333;
+        }
+
+        /* Upload Area Styles */
+        .upload-area {
+            border: 2px dashed #007BFF;
+            padding: 20px;
+            text-align: center;
+            margin: 20px 0;
+            transition: background-color 0.3s;
+            cursor: pointer;
+        }
+
+        .upload-area:hover {
+            background-color: #f0f8ff;
+        }
+
+        .upload-area p {
+            margin: 0;
+        }
+
+        .upload-link {
+            color: #007BFF;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        .list-items {
+            list-style: none;
+        }
+
+        .list-items li {
+            padding: 10px;
+        }
+
+        #convertButton {
+            padding: 5px;
+            margin-top: 5px;
+            font-size: 16px;
+            border-radius: 5px;
+            font-weight: bold;
+            color: rgb(19, 77, 82);
+        }
+
+        /* Result Styles */
+        .result {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+        }
+
+        /* Footer Styles */
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-brand">Image to Text</div>
+        <div class="container">
+            <ul class="navbar-menu">
+                <!-- <li><a href="#home">Home</a></li> -->
+                <!-- <li><a href="#features">Features</a></li> -->
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <!-- <main class="container">
+        <section id="home" class="section">
+            <h1>Convert Images to Text</h1>
+            <div id="uploadArea" class="upload-area">
+                <label for="imageInput">Drag & Drop your image here <br><br> or <br> <br> <i
+                        class="fa-solid fa-upload fa-2xl" style="color: rgb(50, 116, 116);height: 40px;"></i> <br><span
+                        class="upload-link">Browse</span>
+                </label>
+            </div>
+            <button id="convertButton">Convert</button>
+            <div id="result" class="result">Your Text...</div>
+        </section>
+
+        <section id="features" class="section">
+            <h2><u>Features</u></h2>
+            <ul class="list-items">
+                <li> Easy to use interface</li>
+                <li> multiple image formats</li>
+                <li> Fast and accurate text extraction</li>
+            </ul>
+        </section>
+
+        <section id="about" class="section">
+            <h2><u>About Us</u></h2>
+            <p>This application uses Optical Character Recognition (OCR) technology to convert images into editable
+                text.</p>
+        </section>
+    </main> -->
+
+    <!-- Footer -->
+    <!-- <footer class="footer">
+        <p>&copy; 2024 ImageToText. All rights reserved.</p>
+    </footer> -->
+
+    <!-- <script src="script.js"></script> -->
+</body>
+</html>
